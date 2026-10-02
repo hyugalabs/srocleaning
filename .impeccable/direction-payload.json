@@ -1,0 +1,104 @@
+{
+  "title": "Choose the visual world for Sarah Ross Office Cleaning",
+  "question": "The roll assigned The Directory Display Ad. Keep it, take my pick, go canon, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Directory Display Ad",
+      "kicker": "THE ROLL",
+      "lineage": "Valley phone-book display ads and the listing pages around them",
+      "thesis": "The phone number is the product, so the hero is the ad every valley business owner used to find a cleaner: category guide words, ruled listing columns with dotted leaders, and one display block in Sarah's blue with the number set at billboard scale.",
+      "palette": ["#ffffff", "#323dff", "#000000", "#666666"],
+      "materials": ["ruled directory columns", "dotted leaders", "one flat blue ad block", "a single real photo inside the ad frame"],
+      "viewport": "Guide-word strip on top (JANITORIAL SERVICE, COMMERCIAL · TRUMBULL & MAHONING). Left 7 columns: headline in light Brandon type, services set as listing lines with dotted leaders. Right 5 columns: the blue display ad block holding the photo, '25 years', and (330) 880-8254 huge, with a Call button and a Text button.",
+      "risk": "It could read as nostalgic kitsch if the directory grammar turns into costume. It has to stay crisp, white, and modern, with the phone-book logic doing the work rather than the texture.",
+      "raised": [
+        {"from": "challenger-elbow-panel", "raise": "The blue ad is one flat, gradient-free block that owns a whole region, and the ruled frame is the only grid."},
+        {"from": "challenger-vu-meter", "raise": "Listing lines repeat at one fixed rhythm, like a ruler; no card has its own spacing."},
+        {"from": "challenger-cdrom", "raise": "The Call and Text controls physically depress on press, with real travel and no glow."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "The Cleaning Log",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "the 'this restroom was cleaned by' sign-off sheet on the back of every office door",
+      "thesis": "Every row of the log carries the same initials, SR, because Sarah personally cleans every account. The hero is the clipboard sheet, filled in.",
+      "palette": ["#ffffff", "#323dff", "#000000"],
+      "materials": ["gridded log sheet", "ballpoint-blue initials", "clipboard edge"],
+      "viewport": "Headline on the left, and on the right a log sheet with date, time, and initials columns, all signed SR in blue, next to the phone number.",
+      "risk": "Familiar: most runs for a cleaning brand end up at a checklist. It also leans on the 'cleans every account' claim, which you didn't pick as hero proof."
+    },
+    {
+      "id": "challenger-elbow-panel",
+      "label": "Starship Elbow Panel",
+      "verdict": "declined",
+      "lineage": "pill-cornered sci-fi console",
+      "palette": ["#000000", "#cc99cc", "#ffcc99"],
+      "materials": ["flat pastel pills"],
+      "case": "Fuses poorly: a black sci-fi console reads nothing like a local cleaner and breaks the white-ground brand.",
+      "kept": "Flat color blocks as the frame and grid."
+    },
+    {
+      "id": "challenger-vu-meter",
+      "label": "VU Meter Bridge",
+      "verdict": "declined",
+      "lineage": "studio recording desk",
+      "palette": ["#f3ecd9", "#000000", "#c0392b"],
+      "materials": ["meter glass"],
+      "case": "Fuses poorly: audio instruments have nothing to say about clean buildings.",
+      "kept": "Identical units repeated as a ruler."
+    },
+    {
+      "id": "challenger-cdrom",
+      "label": "CD-ROM Console",
+      "verdict": "declined",
+      "lineage": "90s multimedia chrome",
+      "palette": ["#9aa3ab", "#2aa198", "#6c4ab6"],
+      "materials": ["bevels"],
+      "case": "Fuses poorly: beveled chrome reads dated, not dependable.",
+      "kept": "Controls with real press travel."
+    },
+    {
+      "id": "challenger-silk",
+      "label": "Silk Canopy Chords",
+      "verdict": "declined",
+      "lineage": "courtyard banners",
+      "palette": ["#2d3a8c", "#a33327", "#f2b134"],
+      "materials": ["translucent silk"],
+      "case": "Fuses poorly: it adds colors outside the pinned palette and has no link to the job.",
+      "kept": "Overlap as meaning, used lightly for the blue block over the photo."
+    },
+    {
+      "id": "challenger-amber-sun",
+      "label": "Indoor Weather Sun",
+      "verdict": "declined",
+      "lineage": "gallery installation",
+      "palette": ["#e8a33c", "#000000"],
+      "materials": ["haze", "mirror"],
+      "case": "Fuses poorly: amber monochrome erases her blue.",
+      "kept": "One long horizon line organizing the frame."
+    },
+    {
+      "id": "challenger-algorave",
+      "label": "Algorave Source Floor",
+      "verdict": "declined",
+      "lineage": "live-coding club night",
+      "palette": ["#000000", "#39ff14", "#ff00aa"],
+      "materials": ["projected code"],
+      "case": "Fuses poorly: a neon terminal is the opposite of her audience.",
+      "kept": "Upcoming states visible before they happen."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "The local cleaning-company hero, executed impeccably.",
+    "palette": ["#ffffff", "#323dff", "#000000"],
+    "materials": ["full-bleed photo", "clean grid"],
+    "viewport": "A split hero: headline, subhead, and phone CTA on the left, and a large photo of a clean office on the right.",
+    "risk": "It looks like every competitor's site, just nicer."
+  },
+  "steer": true
+}

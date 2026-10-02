@@ -1,0 +1,58 @@
+:root {
+  --blue: #323dff;
+  --blue-deep: #2530e0;
+  --blue-ink: #1d27c9;
+  --paper: #ffffff;
+  --ink: #000000;
+  --ink-soft: #595959;
+  --rule: #e4e5ee;
+  --rule-strong: #c9cbe0;
+  --on-blue-soft: #d5d8ff;
+
+  --font-display: "brandon-grotesque", var(--font-jost), "Futura", "Century Gothic", sans-serif;
+  --font-body: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --gutter: clamp(16px, 4vw, 64px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--blue);
+  color: var(--paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+}
+
+html {
+  scrollbar-color: var(--blue) var(--paper);
+}
